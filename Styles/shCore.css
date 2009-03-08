@@ -33,10 +33,6 @@
 	position: relative !important;
 }
 
-.syntaxhighlighter code {
-	display: inline !important;
-}
-
 .syntaxhighlighter .bold {
 	font-weight: bold !important;
 }
@@ -88,17 +84,11 @@
 
 .syntaxhighlighter .bar
 {
-	display: none !important;
-}
-
-.syntaxhighlighter .bar.show 
-{
-	display: block !important;
 }
 
 .syntaxhighlighter.collapsed .bar
 {
-	display: block !important;
+
 }
 
 .syntaxhighlighter.nogutter .ruler
@@ -120,12 +110,6 @@
 .syntaxhighlighter.collapsed .ruler
 {
 	display: none !important;
-}
-
-.syntaxhighlighter .lines.no-wrap
-{
-	overflow: auto;
-	overflow-y: hidden;
 }
 
 /* Styles for the toolbar */
@@ -209,11 +193,6 @@
 .syntaxhighlighter.printing .line .content .block
 {
 	background: none !important;
-}
-
-.syntaxhighlighter .no-wrap .line .content .block
-{
-	white-space: nowrap !important;
 }
 
 /* Gutter line numbers */
